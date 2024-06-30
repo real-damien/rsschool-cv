@@ -24,7 +24,6 @@ A year ago, I decided to try myself in programming. I completed the piscine at S
 * C, SQL, JavaScript (Basics)
 * Git, GitHub
 * VS Code
-
 ---
 
 ### Code example:
