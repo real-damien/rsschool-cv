@@ -1,0 +1,69 @@
+body,
+h1,
+p {
+    margin: 1;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f6f6;
+    color: #333;
+}
+
+h1 {
+    color: #033c7a;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+}
+
+footer img {
+    max-width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    /* Убираем маркеры у списка */
+    padding: 0;
+    /* Убираем отступы у списка */
+    display: flex;
+    /* Делаем список горизонтальным с использованием Flexbox */
+}
+
+nav li {
+    margin-right: 20px;
+    /* Добавляем отступ между пунктами меню */
+}
+
+nav a {
+    text-decoration: none;
+    /* Убираем подчеркивание у ссылок */
+    color: #363434;
+    /* Цвет ссылок */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.5);
+    /* Прозрачный серый цвет фона футера */
+    color: #fff;
+    /* Цвет текста в футере */
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
